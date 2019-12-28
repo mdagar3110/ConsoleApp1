@@ -25,7 +25,7 @@ namespace ConsoleApp1
             Hashtable ht = new Hashtable();
             for (int i = 0; i <= nums.Length - 1; i++)
             {
-                int container = target - nums[i];
+                int container = target - nums[i]; 
 
                 if (ht.Contains(container))
                 {
